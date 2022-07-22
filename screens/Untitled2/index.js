@@ -48,25 +48,28 @@ const Untitled2 = ({
       fontSize: 14,
       borderRadius: 0
     }}>Name</Text><Pressable onPress={() => navigation.navigate("Untitled1")}><View style={{
-        left: 23,
-        top: 310,
+        left: 18,
+        top: 232,
         position: "absolute",
         height: 28,
         width: 152,
-        backgroundColor: "#E4E4E4",
-        borderRadius: 0,
+        backgroundColor: "#000000",
+        borderRadius: 10,
         color: "#777777"
-      }}></View></Pressable><Text style={{
-      left: 45,
-      top: 239,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }}>Button
-    </Text></View>;
+      }}></View></Pressable><Pressable onPress={{}}><Text style={{
+        left: 45,
+        top: 239,
+        position: "absolute",
+        width: 100,
+        height: 18,
+        lineHeight: 14,
+        fontSize: 14,
+        borderRadius: 0,
+        textAlign: "center",
+        color: "#ffffff",
+        opacity: 1
+      }}>Button
+    </Text></Pressable></View>;
 };
 
 export default Untitled2;
